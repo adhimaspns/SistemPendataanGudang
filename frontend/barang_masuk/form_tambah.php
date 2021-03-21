@@ -19,25 +19,29 @@
 
     <div class="kotak-form">
       <h2>Form Tambah Barang Masuk</h2>
-      <form action="/action_page.php">
+      <form action="../../backend/barang_masuk/barang_masuk.php" method="POST">
+
         <label>Nama Barang</label>
-        <input type="text" class="form" name="" placeholder="Beras">
+        <input type="text" class="form" name="nama_brg" placeholder="Beras">
 
         <label>Qty</label>
-        <input type="number" class="form" name="" placeholder="1000">
+        <input type="number" class="form" name="stok_brg" placeholder="1000">
 
         <label>Satuan</label>
-        <input type="text" class="form" name="" placeholder="Pcs/Kg/Ton/Dll">
-
-        <label>Pengirim</label>
-        <input type="text" class="form" name="" placeholder="Nama PT/Instansi/Dll">
+        <input type="text" class="form" name="satuan_brg" placeholder="Pcs/Kg/Ton/Dll">
 
         <label>Harga Satuan</label>
-        <input type="text" class="form" name="" placeholder="15.000">
+        <input type="text" class="form" name="harga_satuan" placeholder="15.000">
 
-        <input type="submit" class="form-tombol" value="Submit">
+        <label>Pengirim</label>
+        <input type="text" class="form" name="pengirim" placeholder="Nama PT/Instansi/Dll">
+
+        <input type="submit" class="form-tombol" value="Submit" name="barang_masuk">
       </form>
     </div>
+    <a href="../data_barang/index.php?page=databarang" class="btn btn-abu margin-20-0">
+      Kembali
+    </a>
   </div>
 
 </body>
