@@ -54,3 +54,27 @@
     }
   }
 /* Aklhir Sidebar */
+
+/* TYPOGRAPY */
+  .teks-rata-kanan {
+    text-align: right !important;
+  }
+  .teks-rata-kiri {
+    text-align: left !important;
+  }
+  .teks-rata-tengah{
+    text-align: center !important;
+  }
+/* Akhir TYPOGRAPY */
+
+/* GRID SISTEM */
+  .margin-top-20 {
+    margin-top: 20px !important;
+  }
+  .margin-top-50 {
+    margin-top: 50px !important;
+  }
+  .margin-20-0 {
+    margin: 20px 0 !important;
+  }
+/* Akhir GRID SISTEM */
