@@ -17,19 +17,7 @@
     <h1>Sistem Pendataan Gudang</h1>
     <h2 class="teks-rata-kanan margin-top-50">Barang Masuk</h2>
 
-    <div class="kotak-form">
-      <h2>Form Barang Keluar</h2>
-      <form action="../../backend/barang_keluar/barang_keluar.php" method="POST">
-
-        <label>Nama Pembeli</label>
-        <input type="text" class="form" name="nama_pembeli" placeholder="Arie">
-
-        <label>Keterangan</label>
-        <textarea name="keterangan" class="form" cols="30" rows="10" placeholder="Tambahkan Keterangan(opsional)"></textarea>
-
-        <input type="submit" class="form-tombol" value="Simpan" name="simpan_transaksi">
-      </form>
-    </div>
+    
     <a href="index.php?page=barangkeluar" class="btn btn-abu margin-20-0">
       Kembali
     </a>

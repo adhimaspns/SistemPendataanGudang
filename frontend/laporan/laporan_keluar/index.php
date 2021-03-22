@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beranda</title>
+  <title>Laporan Barang Keluar</title>
   <link rel="stylesheet" href="../../../css/style.css">
 </head>
 <body>
@@ -27,6 +27,7 @@
           <th>Jumlah Barang Keluar</th>
           <th>Total Pembayaran</th>
           <th>Nama Pembeli</th>
+          <th>Aksi</th>
         </tr>
 
         <?php
@@ -43,11 +44,11 @@
             <td><?= $data['jumlah_barang_keluar'] ?></td>
             <td><?= "Rp. " . number_format($data['total'],0,',','.') ?></td>
             <td><?= $data['nama_pembeli'] ?></td>
-
-            <!-- <td><?= $data['nama_pembeli'] ?></td>
-            <td><?= $data['nama_brg'] ?></td>
-            <td><?= $data['stok_masuk'] . " " . $data['stn_brg_masuk'] ?></td>
-            <td><?= "Rp. " . number_format($data['sbttl_brg_masuk'],0,',','.')  ?></td> -->
+            <td>
+              <a target="blank" href="../../barang_keluar/cetak_nota.php?Tr=<?php echo $data['no_tr_brg_keluar'] ?>" class="btn btn-biru">
+                Cetak Nota
+              </a>
+            </td>
           </tr>
           <?php } ?>
       </table>

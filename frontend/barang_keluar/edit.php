@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beranda</title>
+  <title>Edit Qty</title>
   <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
@@ -49,6 +49,9 @@
         <input type="submit" value="Simpan" name="editQtyBarang" class="btn btn-hijau">
       </form>
     </div>
+    <a href="kasir.php?Tr=<?php echo $Tr?>&page=barangkeluar" class="btn btn-abu margin-20-0">
+      Kembali
+    </a>
   </div>
 
 </body>
