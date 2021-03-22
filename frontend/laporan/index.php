@@ -21,7 +21,7 @@
       <a href="laporan_masuk/index.php?page=laporan" class="btn btn-biru">
         Laporan Barang Masuk
       </a>
-      <a href="" class="btn btn-merah">
+      <a href="laporan_keluar/index.php?page=laporan" class="btn btn-merah">
         Laporan Barang Keluar
       </a>
     </center>
