@@ -206,10 +206,40 @@
   .margin-top-50 {
     margin-top: 50px !important;
   }
+  .margin-bottom-50 {
+    margin-bottom: 50px !important;
+  }
   .margin-20-0 {
     margin: 20px 0 !important;
   }
   .margin-top-100 {
     margin-top: 100px !important;
   }
+  .margin-bottom-100 {
+    margin-bottom: 100px !important;
+  }
+  .margin-bottom-200 {
+    margin-bottom: 200px !important;
+  }
+  .teks-center {
+    text-align: center !important;
+  }
+  .teks-rata-kiri {
+    text-align: left !important;
+  }
+  .teks-rata-kanan{
+    text-align: right !important;
+  }
 /* Akhir GRID SISTEM */
+
+/* Background  */
+  .backg-hitam {
+    background-color: #343a40 !important;
+  }
+/* Akhir Background  */
+
+/* COLOR */
+  .teks-putih {
+    color: #ffffff !important;
+  }
+/* Akhir COLOR */
