@@ -15,9 +15,9 @@
 
   <div class="content">
     <h1>Sistem Pendataan Gudang</h1>
-    <h2 class="teks-rata-kanan margin-top-50">Laporan Barang Masuk</h2>
+    <h2 class="teks-rata-kanan margin-top-50">Laporan Barang Keluar</h2>
 
-    <h2>Data Laporan Barang Masuk</h2>
+    <h2>Data Laporan Barang Keluar</h2>
     <div class="kotak-table">
       <table class="table-responsive">
         <tr>
