@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Mar 2021 pada 18.30
+-- Waktu pembuatan: 31 Mar 2021 pada 11.59
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.4.3
 
@@ -158,6 +158,27 @@ INSERT INTO `transaksi` (`id_transaksi`, `nomor_transaksi`, `nama_pembeli`, `ket
 (4, '202103220001', 'Bondan', 'Keterangan Barang', '2021-03-22'),
 (5, '202103220002', 'Adhimas', 'Beli Beras', '2021-03-22');
 
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `user`
+--
+
+CREATE TABLE `user` (
+  `id_user` int(11) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `level` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `user`
+--
+
+INSERT INTO `user` (`id_user`, `nama`, `username`, `password`, `level`) VALUES
+(1, 'admin', 'admin', 'admin123', 'admin');
+
 --
 -- Indexes for dumped tables
 --
@@ -199,6 +220,12 @@ ALTER TABLE `transaksi`
   ADD PRIMARY KEY (`id_transaksi`);
 
 --
+-- Indeks untuk tabel `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id_user`);
+
+--
 -- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
@@ -237,6 +264,12 @@ ALTER TABLE `laporan_brg_masuk`
 --
 ALTER TABLE `transaksi`
   MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT untuk tabel `user`
+--
+ALTER TABLE `user`
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

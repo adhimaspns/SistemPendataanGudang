@@ -3,5 +3,5 @@
   <a class="<?php if($_GET['page'] == 'databarang'){  ?>active <?php }?>" href="/SistemPendataanGudang/frontend/data_barang/index.php?page=databarang">Data Barang</a>
   <a class="<?php if($_GET['page'] == 'barangkeluar'){  ?>active <?php }?>" href="/SistemPendataanGudang/frontend/barang_keluar/index.php?page=barangkeluar">Barang Keluar</a>
   <a class="<?php if($_GET['page'] == 'laporan'){  ?>active <?php }?>" href="/SistemPendataanGudang/frontend/laporan/index.php?page=laporan">Laporan</a>
-  <a href="#about">Log Out</a>
+  <a href="/SistemPendataanGudang/backend/login/logout.php">Log Out</a>
 </div>
